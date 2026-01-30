@@ -1,0 +1,13 @@
+{
+  "name": "ella-claude-skills",
+  "description": "Ella's curated collection of Claude Code skills for enhanced development workflows",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "english-polish",
+      "description": "Lightweight English polishing for non-native speakers. Auto-corrects grammar and expressions without interrupting coding flow.",
+      "version": "1.0.0",
+      "skills": ["skills/english-polish"]
+    }
+  ]
+}
