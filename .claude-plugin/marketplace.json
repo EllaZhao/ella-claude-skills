@@ -11,6 +11,12 @@
       "description": "Lightweight English polishing for non-native speakers. Auto-corrects grammar and expressions without interrupting coding flow.",
       "version": "1.0.0",
       "source": "./plugins/english-polish"
+    },
+    {
+      "name": "markdown-style",
+      "description": "Enforce Markdown and ASCII wireframe standards when creating/editing .md files or drawing UI mockups.",
+      "version": "1.0.0",
+      "source": "./plugins/markdown-style"
     }
   ]
 }
