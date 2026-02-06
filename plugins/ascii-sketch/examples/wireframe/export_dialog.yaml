@@ -1,0 +1,15 @@
+# Export Settings dialog - matches the target wireframe
+title: "Export Settings"
+width: 38
+components:
+  - type: radio
+    text: "Export Highlights Only (5)"
+    selected: true
+  - type: radio
+    text: "Export All Subtitles (55)"
+    selected: false
+  - type: checkbox
+    text: "Include Timestamps"
+    checked: true
+  - type: button_row
+    options: ["Cancel", "Export"]

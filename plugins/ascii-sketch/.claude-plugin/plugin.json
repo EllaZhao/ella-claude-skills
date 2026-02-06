@@ -1,0 +1,6 @@
+{
+  "name": "ascii-sketch",
+  "description": "Generate ASCII art from UI wireframes (YAML DSL) and Mermaid diagrams (flowcharts, sequence diagrams).",
+  "version": "1.0.0",
+  "skills": ["./skills/ascii-sketch"]
+}

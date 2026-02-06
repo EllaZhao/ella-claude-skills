@@ -1,6 +1,0 @@
-{
-  "name": "markdown-style",
-  "description": "Enforce Markdown document and ASCII wireframe standards.",
-  "version": "1.0.0",
-  "skills": ["./skills/markdown-style"]
-}

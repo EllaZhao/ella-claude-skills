@@ -1,0 +1,39 @@
+# Side-by-side panels
+layout: horizontal
+panels:
+  - title: "Sidebar"
+    width: 22
+    components:
+      - type: text
+        text: "[>] Projects"
+      - type: text
+        text: "[>] Tasks"
+      - type: text
+        text: "[*] Settings"
+
+  - title: "Task Detail"
+    width: 40
+    components:
+      - type: text
+        text: "Fix login bug"
+        align: left
+      - type: divider
+      - type: text
+        text: "Status:"
+      - type: select
+        options: ["In Progress"]
+        width: 20
+      - type: spacer
+      - type: text
+        text: "Priority:"
+      - type: radio
+        text: "High"
+        selected: true
+      - type: radio
+        text: "Medium"
+      - type: radio
+        text: "Low"
+      - type: divider
+      - type: button_row
+        options: ["Save", "Delete"]
+        align: right

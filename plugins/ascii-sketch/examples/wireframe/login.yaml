@@ -1,0 +1,25 @@
+# Login form wireframe
+layout: vertical
+panels:
+  - title: "Login"
+    width: 42
+    components:
+      - type: input
+        label: "Email"
+        options: ["user@example.com"]
+      - type: spacer
+      - type: input
+        label: "Password"
+        options: ["********"]
+      - type: spacer
+      - type: checkbox
+        text: "Remember me"
+        checked: false
+      - type: spacer
+      - type: button
+        text: "Sign In"
+        align: center
+      - type: separator
+      - type: text
+        text: "Don't have an account? Sign up"
+        align: center

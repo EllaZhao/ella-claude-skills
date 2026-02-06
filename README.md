@@ -50,6 +50,52 @@ Claude responds:
 Let me examine the function...
 ```
 
+### ascii-sketch
+
+Generate ASCII art from two modes: UI wireframes (YAML DSL) and Mermaid diagrams (flowcharts, sequence diagrams). Describe what you want and Claude renders it as plain text.
+
+**Features:**
+- UI wireframes from YAML DSL (buttons, inputs, radio, checkbox, tables, tabs, progress bars, etc.)
+- Mermaid flowcharts (`graph LR/TD`) and sequence diagrams rendered as ASCII
+- Unicode box-drawing characters for clean output (`--ascii` flag for plain ASCII)
+- Horizontal and vertical multi-panel layouts
+- Zero external dependencies for Mermaid mode; only PyYAML for wireframes
+
+**Example 1 - Wireframe:**
+
+You type:
+> Draw me a login dialog with username and password fields
+
+Claude creates the YAML and renders:
+```
+┌──────────────────────────────┐
+│         Sign In              │
+├──────────────────────────────┤
+│ Username [                 ] │
+│ Password [                 ] │
+│                              │
+│       [Cancel]  [Sign In]    │
+└──────────────────────────────┘
+```
+
+**Example 2 - Mermaid flowchart:**
+
+You type:
+> Draw a flowchart: Start -> Decision -> Yes: Do it, No: Skip
+
+Claude creates the Mermaid DSL and renders:
+```
+┌───────┐      ┌──────────┐      ┌───────┐
+│ Start ├──────► Decision ├──Yes─► Do it │
+└───────┘      └────┬─────┘      └───────┘
+                    │
+                    No
+                    │
+               ┌────▼──┐
+               │ Skip  │
+               └───────┘
+```
+
 ## License
 
 MIT

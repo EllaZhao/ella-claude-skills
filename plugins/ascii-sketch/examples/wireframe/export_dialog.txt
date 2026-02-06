@@ -1,0 +1,8 @@
+┌────────────────────────────────────┐
+│ Export Settings                    │
+├────────────────────────────────────┤
+│ (*) Export Highlights Only (5)     │
+│ ( ) Export All Subtitles (55)      │
+│ [X] Include Timestamps             │
+│ [Cancel]  [Export]                 │
+└────────────────────────────────────┘

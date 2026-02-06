@@ -13,10 +13,10 @@
       "source": "./plugins/english-polish"
     },
     {
-      "name": "markdown-style",
-      "description": "Enforce Markdown and ASCII wireframe standards when creating/editing .md files or drawing UI mockups.",
+      "name": "ascii-sketch",
+      "description": "Generate ASCII art from UI wireframes (YAML DSL) and Mermaid diagrams (flowcharts, sequence diagrams).",
       "version": "1.0.0",
-      "source": "./plugins/markdown-style"
+      "source": "./plugins/ascii-sketch"
     }
   ]
 }

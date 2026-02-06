@@ -1,0 +1,50 @@
+# Showcase of all component types
+title: "Settings Panel"
+width: 44
+components:
+  - type: tabs
+    items: ["General", "Audio", "Video"]
+    active: 0
+
+  - type: text
+    text: "Display"
+    align: left
+
+  - type: select
+    text: "Theme:"
+    options: ["Dark Mode"]
+    width: 24
+
+  - type: spacer
+
+  - type: checkbox
+    text: "Show line numbers"
+    checked: true
+
+  - type: checkbox
+    text: "Word wrap"
+    checked: false
+
+  - type: divider
+
+  - type: text
+    text: "Font Size"
+
+  - type: progress
+    text: ""
+    width: 60
+
+  - type: divider
+
+  - type: table
+    columns: ["Shortcut", "Action"]
+    rows:
+      - ["Ctrl+S", "Save"]
+      - ["Ctrl+Z", "Undo"]
+      - ["Ctrl+Q", "Quit"]
+
+  - type: divider
+
+  - type: button_row
+    options: ["Reset", "Apply", "OK"]
+    align: right
